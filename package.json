@@ -1,0 +1,14 @@
+{
+  "name": "spend-tags",
+  "version": "0.1.0",
+  "description": "Parse spending written as hashtags in plain-text daily notes and summarise it by category and period.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "spend-tags": "src/cli.ts" },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "demo": "node src/cli.ts sample/daily --period month"
+  },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.6.0" }
+}
