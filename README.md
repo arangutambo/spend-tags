@@ -45,7 +45,7 @@ Output for the bundled sample (`npm run demo`):
 ## Where this came from
 
 The tag grammar and amount extraction are taken from the spending parser in my Obsidian
-**Finance Tracker** plugin ([source](https://github.com/arangutambo)), which is MIT-licensed
+**Finance Tracker** plugin ([source](https://github.com/arangutambo/finance-tracker)), which is MIT-licensed
 and mine. This repository is a standalone rewrite of that small part: TypeScript with strict
 types, no Obsidian dependency, a command-line interface, period summaries, CSV/JSON output,
 explicit error reporting and a test suite. The rewrite and the extensions were developed
